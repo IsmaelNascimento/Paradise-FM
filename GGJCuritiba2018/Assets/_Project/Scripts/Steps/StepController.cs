@@ -8,6 +8,7 @@ public class StepController : MonoBehaviour
     [SerializeField] private SpriteRenderer Front;
     [SerializeField] private SpriteRenderer Back;
     public float TextSpeed = 1f;
+    public float BackgroundSwitchTime = 0.3f;
     private static StepController instance;
     public static StepController Instance
     {
@@ -35,7 +36,7 @@ public class StepController : MonoBehaviour
     {
         Back.sprite = backgroundSprite;
 
-        Front.DOFade(0f, 1f).OnComplete(() => 
+        Front.DOFade(0f, BackgroundSwitchTime).OnComplete(() => 
         {
             var aux = Front.sprite;
             Front.sprite = Back.sprite;

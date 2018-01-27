@@ -8,7 +8,13 @@ public class ChangeBackgroundStep : BaseStep
 
     private void OnEnable()
     {
+        StartCoroutine(ChangeBackground());
+    }
+
+    private IEnumerator ChangeBackground()
+    {
         StepController.Instance.ChangeBackground(Background);
+        yield return new WaitForSeconds(StepController.Instance.BackgroundSwitchTime);
         EndStep();
     }
 }
