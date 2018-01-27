@@ -21,6 +21,10 @@ public class TextStep : BaseStep {
             for (charIndex = 0; !isSentenceComplete && charIndex < sentence.Length; charIndex++)
             {
                 yield return new WaitForSeconds(1f / StepController.Instance.TextSpeed);
+                if ('<' == sentence[charIndex])
+                {
+                    charIndex = sentence.IndexOf('>', charIndex) + 1;
+                }
                 StepController.Instance.ShowText(sentence.Substring(0, charIndex));
             }
             charIndex = sentence.Length;
