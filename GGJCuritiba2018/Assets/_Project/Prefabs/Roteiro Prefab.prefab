@@ -11,6 +11,22 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1421955170176878}
   m_IsPrefabParent: 1
+--- !u!1 &1039212086855096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4718486249303322}
+  - component: {fileID: 114105365615970142}
+  m_Layer: 0
+  m_Name: Window Monologue part 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1131142181257534
 GameObject:
   m_ObjectHideFlags: 0
@@ -38,6 +54,38 @@ GameObject:
   - component: {fileID: 114618694763270600}
   m_Layer: 0
   m_Name: Fade in
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1191675166800254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4140718206600034}
+  - component: {fileID: 114845230545302676}
+  m_Layer: 0
+  m_Name: Intro Journal Monologue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1264319045697494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4208950937997682}
+  - component: {fileID: 114067890194183268}
+  m_Layer: 0
+  m_Name: Intro Picture Monologue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,6 +139,54 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1507190924079608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4061352432689208}
+  - component: {fileID: 114434298736427194}
+  m_Layer: 0
+  m_Name: Window Monologue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1736206875629310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4120280517970242}
+  - component: {fileID: 114139011134772482}
+  m_Layer: 0
+  m_Name: Broadcast 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1758430330432344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4252570533089850}
+  - component: {fileID: 114463609014018138}
+  m_Layer: 0
+  m_Name: Broadcast 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1835325645711728
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,7 +213,7 @@ GameObject:
   - component: {fileID: 4714651738996908}
   - component: {fileID: 114537195687191350}
   m_Layer: 0
-  m_Name: Broadcast 1
+  m_Name: Intro Bible Monologue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -135,12 +231,57 @@ Transform:
   m_Children:
   - {fileID: 4952567339651812}
   - {fileID: 4507921814163480}
-  - {fileID: 4714651738996908}
+  - {fileID: 4252570533089850}
   - {fileID: 4161607005746766}
   - {fileID: 4819249666730502}
   - {fileID: 4976477419117110}
+  - {fileID: 4120280517970242}
+  - {fileID: 4061352432689208}
+  - {fileID: 4718486249303322}
+  - {fileID: 4140718206600034}
+  - {fileID: 4208950937997682}
+  - {fileID: 4714651738996908}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4061352432689208
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1507190924079608}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4043819636739278}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4120280517970242
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1736206875629310}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4043819636739278}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4140718206600034
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1191675166800254}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4043819636739278}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4161607005746766
 Transform:
@@ -154,6 +295,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4043819636739278}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4208950937997682
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1264319045697494}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4043819636739278}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4252570533089850
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1758430330432344}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4043819636739278}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4507921814163480
 Transform:
@@ -179,7 +346,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 2
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4718486249303322
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1039212086855096}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4043819636739278}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4819249666730502
 Transform:
@@ -220,6 +400,61 @@ Transform:
   m_Father: {fileID: 4043819636739278}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114067890194183268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1264319045697494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 0}
+  Text:
+  - 'July 7th, the seventh of July. '
+  - "Anna, July 7. The seventh, the... Matthew, 7\u2026 "
+  - Matthew 7:7.
+  - The bible!
+--- !u!114 &114105365615970142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1039212086855096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 0}
+  Text:
+  - Anna?!
+  - '...'
+  - The journal! It's in the closet somewhere.
+--- !u!114 &114139011134772482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1736206875629310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 0}
+  Text:
+  - Good morning, my love.
+  - ' Today I want to talk about our wedding. '
+  - The day we became Matthew and Anna Reed.
+  - You wanted to get married in the church, of course, but I convinced you otherwise.
+  - That was one of the few times I ever remember winning an argument with you.
+  - "Remember how we went to\u2026"
+  - What the hell?
+  - '...'
+  - Who's there?!
 --- !u!114 &114148434794840270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -250,12 +485,28 @@ MonoBehaviour:
   NextStep: {fileID: 0}
   Interactions:
   - {fileID: 0}
---- !u!114 &114537195687191350
+--- !u!114 &114434298736427194
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1870405995179520}
+  m_GameObject: {fileID: 1507190924079608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 0}
+  Text:
+  - Hello?
+  - '...'
+  - Am I dreaming?
+--- !u!114 &114463609014018138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1758430330432344}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
@@ -276,6 +527,22 @@ MonoBehaviour:
   - "Anna, I\u2019m sorry. I have to go now."
   - " I\u2019ll talk to you again tomorrow, early morning, ok?"
   - I'm sorry.
+--- !u!114 &114537195687191350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1870405995179520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 0}
+  Text:
+  - Ask, and it shall be given to you.
+  - Seek, and you shall find.
+  - Knock, and it shall be opened to you.
 --- !u!114 &114618694763270600
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -287,7 +554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d505ed833fde311469f52d373620f1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114537195687191350}
+  NextStep: {fileID: 114463609014018138}
   Background: {fileID: 21300000, guid: 3bb959d2df59ecf43baab775b9dd4e13, type: 3}
 --- !u!114 &114690283685367544
 MonoBehaviour:
@@ -316,6 +583,22 @@ MonoBehaviour:
   NextStep: {fileID: 0}
   Interactions:
   - {fileID: 0}
+--- !u!114 &114845230545302676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1191675166800254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 0}
+  Text:
+  - 'Name? Anna? Matthew?  '
+  - "What day is today\u2026 ?"
+  - The picture. The date in the picture.
 --- !u!114 &114929942849556890
 MonoBehaviour:
   m_ObjectHideFlags: 1
