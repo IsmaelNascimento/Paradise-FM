@@ -5,10 +5,15 @@ using UnityEngine;
 public class InteractionStep : BaseStep
 {
     public Interaction[] Interactions;
+    public GameObject[] ObjectsToEnable;
 
     private void OnEnable()
     {
         StepController.Instance.HideText();
+        for (int objectIndex = 0; objectIndex < ObjectsToEnable.Length; objectIndex++)
+        {
+            ObjectsToEnable[objectIndex].SetActive(true);
+        }
         for (int interactionIndex = 0; interactionIndex < Interactions.Length; interactionIndex++)
         {
             Interactions[interactionIndex].enabled = true;
@@ -20,6 +25,10 @@ public class InteractionStep : BaseStep
         for (int interactionIndex = 0; interactionIndex < Interactions.Length; interactionIndex++)
         {
             Interactions[interactionIndex].enabled = false;
+        }
+        for (int objectIndex = 0; objectIndex < ObjectsToEnable.Length; objectIndex++)
+        {
+            ObjectsToEnable[objectIndex].SetActive(false);
         }
     }
 }
