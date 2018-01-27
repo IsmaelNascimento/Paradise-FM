@@ -6,32 +6,37 @@ public class TextStep : BaseStep {
     public string[] Text;
     private int textIndex;
     private int charIndex;
-    private bool isWaiting;
+    private bool isSentenceComplete = false;
 
-    private IEnumerator Start()
+    private void OnEnable()
+    {
+        StartCoroutine(ShowText());
+    }
+
+    private IEnumerator ShowText()
     {
         for (textIndex = 0; textIndex < Text.Length; textIndex++)
         {
             string sentence = Text[textIndex];
-            for (charIndex = 0; charIndex < sentence.Length; charIndex++)
+            for (charIndex = 0; !isSentenceComplete && charIndex < sentence.Length; charIndex++)
             {
-                yield return new WaitForSeconds(0.02f);
+                yield return new WaitForSeconds(1f / StepController.Instance.TextSpeed);
+                StepController.Instance.ShowText(sentence.Substring(0, charIndex));
             }
-            isWaiting = true;
-            while (isWaiting)
+            charIndex = sentence.Length;
+            StepController.Instance.ShowText(sentence.Substring(0, charIndex));
+            isSentenceComplete = true;
+            while (isSentenceComplete)
             {
                 yield return null;
             }
         }
+        StepController.Instance.StopText();
         EndStep();
     }
 
-    private void OnGUI()
+    public void Skip()
     {
-        GUILayout.Label(Text[textIndex].Substring(0, charIndex));
-        if (isWaiting)
-        {
-            isWaiting = !GUILayout.Button("Next");
-        }
+        isSentenceComplete = !isSentenceComplete;
     }
 }

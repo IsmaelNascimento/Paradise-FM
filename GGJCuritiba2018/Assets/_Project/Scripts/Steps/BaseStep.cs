@@ -8,6 +8,6 @@ public abstract class BaseStep : MonoBehaviour
 
     protected void EndStep()
     {
-        StepController.StartStep(NextStep);
+        StepController.Instance.StartStep(NextStep);
     }
 }

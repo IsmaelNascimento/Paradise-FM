@@ -6,9 +6,9 @@ public class ChangeCharacterStep : BaseStep
 {
     public Sprite Character;
 
-    private void Start()
+    private void OnEnable()
     {
-        StepController.ChangeCharacter(Character);
+        StepController.Instance.ChangeCharacter(Character);
         EndStep();
     }
 }

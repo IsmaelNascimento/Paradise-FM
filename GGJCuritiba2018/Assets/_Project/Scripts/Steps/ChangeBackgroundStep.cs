@@ -6,9 +6,9 @@ public class ChangeBackgroundStep : BaseStep
 {
     public Sprite Background;
 
-    private void Start()
+    private void OnEnable()
     {
-        StepController.ChangeBackground(Background);
+        StepController.Instance.ChangeBackground(Background);
         EndStep();
     }
 }
