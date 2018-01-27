@@ -53,7 +53,7 @@ GameObject:
   - component: {fileID: 4507921814163480}
   - component: {fileID: 114618694763270600}
   m_Layer: 0
-  m_Name: Fade in
+  m_Name: Go To Background Studio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,6 +155,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &1694959098554906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4676205461240650}
+  - component: {fileID: 114995678960141086}
+  m_Layer: 0
+  m_Name: Go To Background Studio Zoom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1736206875629310
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,22 +203,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!1 &1835325645711728
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4161607005746766}
-  - component: {fileID: 114929942849556890}
-  m_Layer: 0
-  m_Name: Enable navigation
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
 --- !u!1 &1870405995179520
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,10 +230,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4952567339651812}
-  - {fileID: 4507921814163480}
+  - {fileID: 4676205461240650}
   - {fileID: 4252570533089850}
-  - {fileID: 4161607005746766}
   - {fileID: 4819249666730502}
+  - {fileID: 4507921814163480}
   - {fileID: 4976477419117110}
   - {fileID: 4120280517970242}
   - {fileID: 4061352432689208}
@@ -283,19 +283,6 @@ Transform:
   m_Father: {fileID: 4043819636739278}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4161607005746766
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1835325645711728}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4208950937997682
 Transform:
   m_ObjectHideFlags: 1
@@ -328,6 +315,19 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1165591374523466}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4043819636739278}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4676205461240650
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1694959098554906}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -372,7 +372,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4952567339651812
 Transform:
@@ -485,6 +485,7 @@ MonoBehaviour:
   NextStep: {fileID: 0}
   Interactions:
   - {fileID: 0}
+  ObjectsToEnable: []
 --- !u!114 &114434298736427194
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -512,7 +513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114929942849556890}
+  NextStep: {fileID: 114694949331143446}
   Text:
   - 'Hey, Anna. '
   - "I\u2019m sorry I\u2019m a little later than usual today."
@@ -554,7 +555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d505ed833fde311469f52d373620f1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114463609014018138}
+  NextStep: {fileID: 114375444169165130}
   Background: {fileID: 21300000, guid: 3bb959d2df59ecf43baab775b9dd4e13, type: 3}
 --- !u!114 &114690283685367544
 MonoBehaviour:
@@ -567,7 +568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d505ed833fde311469f52d373620f1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114618694763270600}
+  NextStep: {fileID: 114995678960141086}
   Background: {fileID: 21300000, guid: 9a04834f77255c945bf973028a480962, type: 3}
 --- !u!114 &114694949331143446
 MonoBehaviour:
@@ -582,6 +583,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 0}
   Interactions:
+  - {fileID: 0}
+  ObjectsToEnable:
   - {fileID: 0}
 --- !u!114 &114845230545302676
 MonoBehaviour:
@@ -599,18 +602,16 @@ MonoBehaviour:
   - 'Name? Anna? Matthew?  '
   - "What day is today\u2026 ?"
   - The picture. The date in the picture.
---- !u!114 &114929942849556890
+--- !u!114 &114995678960141086
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1835325645711728}
+  m_GameObject: {fileID: 1694959098554906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3840802d79a86544db3ecf905cf29e18, type: 3}
+  m_Script: {fileID: 11500000, guid: d505ed833fde311469f52d373620f1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114694949331143446}
-  ObjectsToEnable:
-  - {fileID: 0}
-  ObjectsToDisable: []
+  NextStep: {fileID: 114463609014018138}
+  Background: {fileID: 21300000, guid: 169c696118847c44cb8ffe4c1a050f88, type: 3}
