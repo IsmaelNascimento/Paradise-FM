@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
 
-[System.Serializable]
+[Serializable]
 public struct Choice
 {
     public string Label;
-    public BaseStep step;
+    public BaseStep Step;
 }

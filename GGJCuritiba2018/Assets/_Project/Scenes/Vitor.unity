@@ -913,9 +913,9 @@ MonoBehaviour:
   Question: What shall Matthew do?
   Choices:
   - Label: Keep talking
-    step: {fileID: 2097118639}
+    Step: {fileID: 2097118639}
   - Label: Stare at the abyss
-    step: {fileID: 784698739}
+    Step: {fileID: 784698739}
 --- !u!1 &1742622197
 GameObject:
   m_ObjectHideFlags: 0

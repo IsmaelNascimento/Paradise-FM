@@ -8,14 +8,19 @@ public class TextStep : BaseStep {
     private int charIndex;
     private bool isSentenceComplete = false;
 
-    private IEnumerator Start()
+    private void OnEnable()
+    {
+        StartCoroutine(ShowText());
+    }
+
+    private IEnumerator ShowText()
     {
         for (textIndex = 0; textIndex < Text.Length; textIndex++)
         {
             string sentence = Text[textIndex];
             for (charIndex = 0; !isSentenceComplete && charIndex < sentence.Length; charIndex++)
             {
-                yield return new WaitForSeconds(1f/StepController.Instance.TextSpeed);
+                yield return new WaitForSeconds(1f / StepController.Instance.TextSpeed);
                 StepController.Instance.ShowText(sentence.Substring(0, charIndex));
             }
             charIndex = sentence.Length;
