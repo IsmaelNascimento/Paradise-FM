@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 222532209560436242}
   - component: {fileID: 114276586673642952}
   m_Layer: 5
-  m_Name: TextMeshPro Text
+  m_Name: textDialogBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259,6 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 678c8d7686541b3478aa27245b9ab7bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textDialogBox: {fileID: 114276586673642952}
 --- !u!114 &114585155943722706
 MonoBehaviour:
   m_ObjectHideFlags: 1
