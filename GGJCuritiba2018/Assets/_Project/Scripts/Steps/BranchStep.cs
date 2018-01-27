@@ -8,6 +8,7 @@ public class BranchStep : BaseStep {
 
     private void OnGUI()
     {
+        StepController.Instance.HideText();
         GUILayout.Label(Question);
         for (int i = 0; i < Choices.Length; i++)
         {

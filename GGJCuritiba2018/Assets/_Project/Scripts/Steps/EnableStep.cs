@@ -17,5 +17,6 @@ public class EnableStep : BaseStep
         {
             ObjectsToEnable[objectIndex].SetActive(true);
         }
+        EndStep();
     }
 }
