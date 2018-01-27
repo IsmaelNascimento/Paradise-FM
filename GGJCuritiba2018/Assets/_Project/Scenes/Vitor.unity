@@ -263,7 +263,6 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -1006,8 +1005,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentStep: {fileID: 1747772040}
   DialogBox: {fileID: 1217398789}
-  Background: {fileID: 1742622198}
-  Character: {fileID: 1526248273}
+  Front: {fileID: 1526248273}
+  Back: {fileID: 1742622198}
   TextSpeed: 15
 --- !u!4 &1149578639
 Transform:
@@ -1124,6 +1123,7 @@ MonoBehaviour:
   Interactions:
   - {fileID: 1053525671}
   - {fileID: 1125818709}
+  ObjectsToEnable: []
 --- !u!4 &1295828078
 Transform:
   m_ObjectHideFlags: 0
@@ -1189,7 +1189,7 @@ GameObject:
   - component: {fileID: 1526248274}
   - component: {fileID: 1526248273}
   m_Layer: 0
-  m_Name: Character
+  m_Name: BackgroundFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1309,7 +1309,7 @@ GameObject:
   - component: {fileID: 1742622199}
   - component: {fileID: 1742622198}
   m_Layer: 0
-  m_Name: Background
+  m_Name: BackgroundBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

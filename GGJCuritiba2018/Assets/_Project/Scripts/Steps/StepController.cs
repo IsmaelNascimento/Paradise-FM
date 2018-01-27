@@ -1,13 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using DG.Tweening;
 
 public class StepController : MonoBehaviour
 {
     [SerializeField] private BaseStep CurrentStep;
     [SerializeField] private DialogBox DialogBox;
-    [SerializeField] private SpriteRenderer Background;
-    [SerializeField] private SpriteRenderer Character;
+    [SerializeField] private SpriteRenderer Front;
+    [SerializeField] private SpriteRenderer Back;
     public float TextSpeed = 1f;
     private static StepController instance;
     public static StepController Instance
@@ -34,12 +33,16 @@ public class StepController : MonoBehaviour
 
     public void ChangeBackground(Sprite backgroundSprite)
     {
-        Background.sprite = backgroundSprite;
-    }
+        Back.sprite = backgroundSprite;
 
-    public void ChangeCharacter(Sprite characterSprite)
-    {
-        Character.sprite = characterSprite;
+        Front.DOFade(0f, 1f).OnComplete(() => 
+        {
+            var aux = Front.sprite;
+            Front.sprite = Back.sprite;
+            Back.sprite = aux;
+
+            Front.color = Color.white;
+        });
     }
 
     public void ShowText(string text)
