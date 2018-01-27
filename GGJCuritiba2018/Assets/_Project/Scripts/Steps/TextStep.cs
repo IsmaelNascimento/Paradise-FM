@@ -31,7 +31,6 @@ public class TextStep : BaseStep {
                 yield return null;
             }
         }
-        StepController.Instance.StopText();
         EndStep();
     }
 

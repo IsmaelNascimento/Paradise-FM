@@ -48,7 +48,7 @@ public class StepController : MonoBehaviour
         DialogBox.SetTextDialogBox(text);
     }
 
-    public void StopText()
+    public void HideText()
     {
         DialogBox.AnimationOutput();
     }
