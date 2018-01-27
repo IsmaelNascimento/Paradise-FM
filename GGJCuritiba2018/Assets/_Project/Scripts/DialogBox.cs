@@ -20,6 +20,8 @@ public class DialogBox : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textDialogBox;
     [SerializeField] private Button m_ButtonDialogBox;
 
+    private bool m_OnInput = false;
+
     [ContextMenu("SetTextDialogBox")]
     public void SetTextDialogBox(string newText)
     {
@@ -29,13 +31,17 @@ public class DialogBox : MonoBehaviour
     [ContextMenu("AnimationInput")]
     public void AnimationInput()
     {
-        GetComponent<Animator>().Play("DialogBoxInput");
+        if(!m_OnInput)
+            GetComponent<Animator>().Play("DialogBoxInput");
+
+        m_OnInput = true;
     }
 
     [ContextMenu("AnimationOutput")]
     public void AnimationOutput()
     {
         GetComponent<Animator>().Play("DialogBoxOutput");
+        m_OnInput = false;
     }
 
     public void ActionButtonDialofgBox(UnityAction action)
