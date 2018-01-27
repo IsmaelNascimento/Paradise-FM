@@ -8,7 +8,7 @@ public class ChangeBackgroundStep : BaseStep
 
     private void Start()
     {
-        StepController.ChangeBackground(Background);
+        StepController.Instance.ChangeBackground(Background);
         EndStep();
     }
 }

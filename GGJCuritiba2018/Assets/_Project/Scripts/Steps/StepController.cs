@@ -4,14 +4,26 @@ using UnityEngine;
 
 public class StepController : MonoBehaviour
 {
-    public BaseStep CurrentStep;
-    public SpriteRenderer Background;
-    public SpriteRenderer Character;
-
+    [SerializeField] private BaseStep CurrentStep;
+    [SerializeField] private DialogBox DialogBox;
+    [SerializeField] private SpriteRenderer Background;
+    [SerializeField] private SpriteRenderer Character;
+    public float TextSpeed = 1f;
     private static StepController instance;
+    public static StepController Instance
+    {
+        get
+        {
+            return instance;
+        }
+    }
 
     private void Awake()
     {
+        if (null != instance)
+        {
+            Debug.LogError("Multiple StepControllers");
+        }
         instance = this;
     }
 
@@ -20,23 +32,62 @@ public class StepController : MonoBehaviour
         CurrentStep.gameObject.SetActive(true);
     }
 
-    public static void ChangeBackground(Sprite backgroundSprite)
+    public void ChangeBackground(Sprite backgroundSprite)
     {
-        instance.Background.sprite = backgroundSprite;
+        Background.sprite = backgroundSprite;
     }
 
-    public static void ChangeCharacter(Sprite characterSprite)
+    public void ChangeCharacter(Sprite characterSprite)
     {
-        instance.Character.sprite = characterSprite;
+        Character.sprite = characterSprite;
     }
 
-    public static void StartStep(BaseStep nextStep)
+    public void ShowText(string text)
     {
-        instance.CurrentStep.gameObject.SetActive(false);
-        instance.CurrentStep = nextStep;
+        DialogBox.AnimationInput();
+        DialogBox.SetTextDialogBox(text);
+    }
+
+    public void StopText()
+    {
+        DialogBox.AnimationOutput();
+    }
+
+    public void SkipText()
+    {
+        (CurrentStep as TextStep).Skip();
+    }
+
+    //private IEnumerator TextCoroutine(string[] text)
+    //{
+    //    for (int textIndex = 0; textIndex < text.Length; textIndex++)
+    //    {
+    //        string sentence = text[textIndex];
+    //        int charIndex;
+    //        for (charIndex = 0; !isSentenceComplete && charIndex < sentence.Length; charIndex++)
+    //        {
+    //            yield return new WaitForSeconds(1f/TextSpeed);
+    //            DialogBox.SetTextDialogBox(sentence.Substring(0, charIndex));
+    //        }
+    //        charIndex = sentence.Length;
+    //        DialogBox.SetTextDialogBox(sentence.Substring(0, charIndex));
+    //        isSentenceComplete = true;
+    //        while (isSentenceComplete)
+    //        {
+    //            yield return null;
+    //        }
+    //    }
+
+    //    instance.DialogBox.AnimationOutput();
+    //}
+
+    public void StartStep(BaseStep nextStep)
+    {
+        CurrentStep.gameObject.SetActive(false);
+        CurrentStep = nextStep;
         if (nextStep)
         {
-            instance.CurrentStep.gameObject.SetActive(true);
+            CurrentStep.gameObject.SetActive(true);
         }
     }
 }

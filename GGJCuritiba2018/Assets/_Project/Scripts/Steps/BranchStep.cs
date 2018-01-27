@@ -14,7 +14,7 @@ public class BranchStep : BaseStep {
             Choice choice = Choices[i];
             if (GUILayout.Button(choice.Label))
             {
-                StepController.StartStep(choice.step);
+                StepController.Instance.StartStep(choice.step);
             }
         }
     }

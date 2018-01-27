@@ -8,7 +8,7 @@ public class ChangeCharacterStep : BaseStep
 
     private void Start()
     {
-        StepController.ChangeCharacter(Character);
+        StepController.Instance.ChangeCharacter(Character);
         EndStep();
     }
 }
