@@ -8,7 +8,6 @@ public class ChangeCharacterStep : BaseStep
 
     private void OnEnable()
     {
-        StepController.Instance.ChangeCharacter(Character);
         EndStep();
     }
 }
