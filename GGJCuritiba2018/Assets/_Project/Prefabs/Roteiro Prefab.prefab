@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 4043819636739278}
   - component: {fileID: 114148434794840270}
   m_Layer: 0
-  m_Name: Step Controller
+  m_Name: Roteiro Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -412,8 +412,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentStep: {fileID: 114618694763270600}
+  DialogBox: {fileID: 0}
   Background: {fileID: 0}
   Character: {fileID: 0}
+  TextSpeed: 1
 --- !u!114 &114149241317066616
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -533,9 +535,9 @@ MonoBehaviour:
   Question: What shall Matthew do?
   Choices:
   - Label: Keep talking
-    step: {fileID: 114419337660340594}
+    Step: {fileID: 0}
   - Label: Stare at the abyss
-    step: {fileID: 114594344844771252}
+    Step: {fileID: 0}
 --- !u!114 &114782789554443852
 MonoBehaviour:
   m_ObjectHideFlags: 1
