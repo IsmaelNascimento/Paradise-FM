@@ -15,7 +15,10 @@ public class TextStep : BaseStep
     private void Start()
     {
         if (!GetComponent<AudioSource>())
+        {
             gameObject.AddComponent<AudioSource>();
+            GetComponent<AudioSource>().playOnAwake = false;
+        }
     }
 
     private void OnEnable()
@@ -29,7 +32,7 @@ public class TextStep : BaseStep
         {
             var sentence = Text[textIndex];
 
-            if(textIndex != 0)
+            if(textIndex < songs.Length)
             {
                 GetComponent<AudioSource>().clip = songs[textIndex];
                 GetComponent<AudioSource>().Play();
