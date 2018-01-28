@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class AnswersManager : MonoBehaviour
 {
+    private int id = -1;
     private static AnswersManager m_Instance;
     public static AnswersManager Instance
     {
@@ -19,6 +20,7 @@ public class AnswersManager : MonoBehaviour
 
     private void Start()
     {
+        id = -1;
         for (int i = 0; i < m_Buttons.Length; i++)
             m_Buttons[i].SetActive(false);
     }
@@ -31,12 +33,20 @@ public class AnswersManager : MonoBehaviour
 
     public void OnButtonReturnIDClicked(int id)
     {
-        GetIDSelected(id);
+        if (this.id < 0)
+        {
+            this.id = id;
+        }
     }
 
-    public int GetIDSelected(int id)
+    public int GetIDSelected()
     {
         return id;
+    }
+
+    public void Reset()
+    {
+        Start();
     }
 
     public void SetTextButtonAnswers(int idButton, string textAnswers)
