@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interaction : MonoBehaviour {
+public class Interaction : MonoBehaviour
+{
     public BaseStep NextStep;
 
     private void OnMouseDown()
