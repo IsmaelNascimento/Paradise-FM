@@ -21,8 +21,12 @@ public class TextStep : BaseStep
         for (textIndex = 0; textIndex < Text.Length; textIndex++)
         {
             var sentence = Text[textIndex];
-            GetComponent<AudioSource>().clip = songs[textIndex];
-            GetComponent<AudioSource>().Play();
+
+            if(textIndex != 0)
+            {
+                GetComponent<AudioSource>().clip = songs[textIndex];
+                GetComponent<AudioSource>().Play();
+            }
 
             for (charIndex = 0; !isSentenceComplete && charIndex < sentence.Length; charIndex++)
             {
