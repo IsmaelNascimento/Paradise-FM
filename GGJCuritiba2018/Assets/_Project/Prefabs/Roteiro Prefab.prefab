@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 4499855313689506}
   - component: {fileID: 114011421236963808}
   m_Layer: 0
-  m_Name: Disable Journal in Closet
+  m_Name: Disable Bible
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ GameObject:
   m_IsActive: 0
 --- !u!1 &1060732495502060
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
@@ -117,7 +117,23 @@ GameObject:
   - component: {fileID: 4500192315025846}
   - component: {fileID: 114930326427966454}
   m_Layer: 0
-  m_Name: Fade to Black
+  m_Name: Back to the bedroom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1119656137747176
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4635067048482454}
+  - component: {fileID: 114257054478128788}
+  m_Layer: 0
+  m_Name: Broadcast to Anna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -363,6 +379,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &1383521564562366
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4610231561337594}
+  - component: {fileID: 114734371580889384}
+  m_Layer: 0
+  m_Name: Fade to Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1421955170176878
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,9 +412,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1437972148606024
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4915580736428058}
+  - component: {fileID: 114244903628244138}
+  m_Layer: 0
+  m_Name: Disable Journal in Closet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1453578809475968
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
@@ -414,7 +462,7 @@ GameObject:
   m_IsActive: 0
 --- !u!1 &1529305944178486
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
@@ -423,6 +471,38 @@ GameObject:
   - component: {fileID: 114550465050887400}
   m_Layer: 0
   m_Name: Part I Bible Monologue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1553784048216242
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4107446260993970}
+  - component: {fileID: 114895263900295948}
+  m_Layer: 0
+  m_Name: Fade to Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1555592179892308
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4653621415324336}
+  - component: {fileID: 114814090064782596}
+  m_Layer: 0
+  m_Name: Enable Journal in Closet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -510,7 +590,7 @@ GameObject:
   m_IsActive: 0
 --- !u!1 &1599644793744834
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
@@ -676,7 +756,7 @@ GameObject:
   - component: {fileID: 4145183354331090}
   - component: {fileID: 114958341137708232}
   m_Layer: 0
-  m_Name: Enable Journal in Closet
+  m_Name: Enable Bible
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -854,15 +934,11 @@ Transform:
   m_Children:
   - {fileID: 4954130238419030}
   - {fileID: 4257308082700558}
-  - {fileID: 4363491232767340}
-  - {fileID: 4200408552217894}
   - {fileID: 4220103141078298}
-  - {fileID: 4494756402402722}
   - {fileID: 4443740883177790}
   - {fileID: 4558776955937574}
   - {fileID: 4714651738996908}
   - {fileID: 4341861329828878}
-  - {fileID: 4790701309708420}
   - {fileID: 4433180797158996}
   - {fileID: 4584284644582650}
   - {fileID: 4498072753354706}
@@ -940,6 +1016,19 @@ Transform:
   m_Father: {fileID: 4954130238419030}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4107446260993970
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553784048216242}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4120280517970242
 Transform:
   m_ObjectHideFlags: 1
@@ -977,7 +1066,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4257308082700558}
-  m_RootOrder: 14
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4200408552217894
 Transform:
@@ -989,8 +1078,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 3
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4208950937997682
 Transform:
@@ -1016,7 +1105,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4252570533089850
 Transform:
@@ -1042,7 +1131,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4666596775817472}
-  - {fileID: 4500192315025846}
+  - {fileID: 4610231561337594}
   - {fileID: 4293134689346828}
   - {fileID: 4815014189688028}
   - {fileID: 4056632944296590}
@@ -1055,14 +1144,23 @@ Transform:
   - {fileID: 4892428718061132}
   - {fileID: 4819684843404194}
   - {fileID: 4972743834973804}
-  - {fileID: 4145183354331090}
+  - {fileID: 4653621415324336}
   - {fileID: 4718486249303322}
-  - {fileID: 4499855313689506}
+  - {fileID: 4915580736428058}
   - {fileID: 4140718206600034}
   - {fileID: 4794829517840804}
   - {fileID: 4808565873382948}
   - {fileID: 4208950937997682}
   - {fileID: 4825021027536592}
+  - {fileID: 4145183354331090}
+  - {fileID: 4499855313689506}
+  - {fileID: 4363491232767340}
+  - {fileID: 4107446260993970}
+  - {fileID: 4790701309708420}
+  - {fileID: 4500192315025846}
+  - {fileID: 4494756402402722}
+  - {fileID: 4635067048482454}
+  - {fileID: 4200408552217894}
   m_Father: {fileID: 4043819636739278}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1103,7 +1201,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4363491232767340
 Transform:
@@ -1115,8 +1213,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 2
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4433180797158996
 Transform:
@@ -1129,7 +1227,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 11
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4443740883177790
 Transform:
@@ -1142,7 +1240,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4494756402402722
 Transform:
@@ -1154,8 +1252,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 5
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4498072753354706
 Transform:
@@ -1168,7 +1266,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 13
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4499855313689506
 Transform:
@@ -1181,7 +1279,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4257308082700558}
-  m_RootOrder: 16
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4500192315025846
 Transform:
@@ -1189,12 +1287,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1099628742986374}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4257308082700558}
-  m_RootOrder: 1
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4545347878404296
 Transform:
@@ -1220,7 +1318,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4569135723129784
 Transform:
@@ -1233,7 +1331,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 14
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4584284644582650
 Transform:
@@ -1246,7 +1344,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 12
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4610231561337594
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383521564562366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4615086937478794
 Transform:
@@ -1259,7 +1370,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 16
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4635067048482454
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1119656137747176}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.773656, y: 0.6079422, z: 0.100914665}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4644355861612446
 Transform:
@@ -1273,6 +1397,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4257308082700558}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4653621415324336
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555592179892308}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4666596775817472
 Transform:
@@ -1298,7 +1435,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 17
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4714651738996908
 Transform:
@@ -1311,7 +1448,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4718486249303322
 Transform:
@@ -1350,7 +1487,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 18
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4790701309708420
 Transform:
@@ -1362,8 +1499,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 10
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4794829517840804
 Transform:
@@ -1441,7 +1578,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 19
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4841828284617844
 Transform:
@@ -1493,7 +1630,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 15
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4903608569198780
 Transform:
@@ -1507,6 +1644,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4257308082700558}
   m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4915580736428058
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1437972148606024}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4951856474983170
 Transform:
@@ -1660,7 +1810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3840802d79a86544db3ecf905cf29e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114845230545302676}
+  NextStep: {fileID: 114550465050887400}
   ObjectsToEnable: []
   ObjectsToDisable:
   - {fileID: 0}
@@ -1713,7 +1863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114958341137708232}
+  NextStep: {fileID: 114814090064782596}
   Text:
   - Anna?! ...
   - The journal! It's in the closet somewhere.
@@ -1777,7 +1927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 0}
+  NextStep: {fileID: 114257054478128788}
   Text:
   - "You\u2019ve been listening to me. My message has reached you. "
   - "You know there\u2019s only one thing I can ask. I will."
@@ -1912,6 +2062,37 @@ MonoBehaviour:
   - "Anna\u2026 "
   - '...can you hear me?'
   songs: []
+--- !u!114 &114244903628244138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1437972148606024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3840802d79a86544db3ecf905cf29e18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 114845230545302676}
+  ObjectsToEnable: []
+  ObjectsToDisable:
+  - {fileID: 0}
+--- !u!114 &114257054478128788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1119656137747176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01ff012ed8145d4683bc1874396249d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 114502227345530058}
+  Question: "\"there\u2019s only one thing I can ask\""
+  Choices:
+  - Label: Broadcast message to Anna
+    Step: {fileID: 114502227345530058}
 --- !u!114 &114262669410965718
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2068,7 +2249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3840802d79a86544db3ecf905cf29e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114930326427966454}
+  NextStep: {fileID: 114734371580889384}
   ObjectsToEnable: []
   ObjectsToDisable:
   - {fileID: 0}
@@ -2134,7 +2315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ebdb79e4a3cd784484d0dc7c487c4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 0}
+  NextStep: {fileID: 114958341137708232}
   SpritesToFade:
   - {fileID: 212964385620763952}
   FadeTo: 0
@@ -2243,7 +2424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 0}
+  NextStep: {fileID: 114895263900295948}
   Text:
   - Ask, and it shall be given to you.
   - Seek, and you shall find.
@@ -2344,6 +2525,19 @@ MonoBehaviour:
   - I've never locked this door...
   songs:
   - {fileID: 8300000, guid: e0652a119c6b2804ca85994300d130a0, type: 3}
+--- !u!114 &114734371580889384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383521564562366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d505ed833fde311469f52d373620f1f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 114181410817872880}
+  Background: {fileID: 21300000, guid: 9a04834f77255c945bf973028a480962, type: 3}
 --- !u!114 &114779139928198762
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2371,13 +2565,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 0}
+  NextStep: {fileID: 114930326427966454}
   Text:
   - Ask, and it shall be given to you.
-  - Seek, and you shall find.
-  - Knock, and it shall be opened to you.
-  - Anna...
   songs: []
+--- !u!114 &114814090064782596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555592179892308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3840802d79a86544db3ecf905cf29e18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 114996193305739918}
+  ObjectsToEnable:
+  - {fileID: 0}
+  ObjectsToDisable: []
 --- !u!114 &114845230545302676
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2408,6 +2614,19 @@ MonoBehaviour:
   Text:
   - Seek, and you shall find.
   songs: []
+--- !u!114 &114895263900295948
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553784048216242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d505ed833fde311469f52d373620f1f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 114802146779675600}
+  Background: {fileID: 21300000, guid: 9a04834f77255c945bf973028a480962, type: 3}
 --- !u!114 &114930326427966454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2419,8 +2638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d505ed833fde311469f52d373620f1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114181410817872880}
-  Background: {fileID: 21300000, guid: 9a04834f77255c945bf973028a480962, type: 3}
+  NextStep: {fileID: 114143371924713322}
+  Background: {fileID: 21300000, guid: 55379d0e469c82346a3fe96f6655d7ce, type: 3}
 --- !u!114 &114958341137708232
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2432,7 +2651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3840802d79a86544db3ecf905cf29e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114996193305739918}
+  NextStep: {fileID: 0}
   ObjectsToEnable:
   - {fileID: 0}
   ObjectsToDisable: []
