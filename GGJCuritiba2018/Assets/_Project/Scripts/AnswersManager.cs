@@ -16,6 +16,7 @@ public class AnswersManager : MonoBehaviour
         }
     }
 
+    [SerializeField] private Text m_TextQuestion;
     [SerializeField] private GameObject[] m_Buttons;
 
     private void Start()
@@ -63,6 +64,11 @@ public class AnswersManager : MonoBehaviour
                 m_Buttons[2].GetComponentInChildren<Text>().text = textAnswers;
                 break;
         }
+    }
+
+    public void SetTextQuestion(string textQuestion)
+    {
+        m_TextQuestion.text = textQuestion;
     }
 
     #region Tests com ContextMenu
