@@ -123,6 +123,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &1117292787892162
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4491822235314120}
+  - component: {fileID: 114267628867813240}
+  m_Layer: 0
+  m_Name: Hide Photo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1119656137747176
 GameObject:
   m_ObjectHideFlags: 1
@@ -131,9 +147,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4635067048482454}
-  - component: {fileID: 114257054478128788}
+  - component: {fileID: 114540484233164834}
   m_Layer: 0
-  m_Name: Broadcast to Anna
+  m_Name: Back to the studio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -173,7 +189,7 @@ GameObject:
   m_IsActive: 0
 --- !u!1 &1181386180186588
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
@@ -261,7 +277,7 @@ GameObject:
   - component: {fileID: 4545347878404296}
   - component: {fileID: 114262669410965718}
   m_Layer: 0
-  m_Name: Show photo
+  m_Name: Show new photo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -357,7 +373,7 @@ GameObject:
   - component: {fileID: 4736069689176910}
   - component: {fileID: 212964385620763952}
   m_Layer: 0
-  m_Name: Photo Zoom
+  m_Name: New Photo Zoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -444,6 +460,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &1492295865264936
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4577565019667082}
+  - component: {fileID: 212328579651410682}
+  m_Layer: 0
+  m_Name: Photo Zoom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1507190924079608
 GameObject:
   m_ObjectHideFlags: 1
@@ -572,6 +604,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &1596636763785824
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4092477289708228}
+  - component: {fileID: 114840379755535890}
+  m_Layer: 0
+  m_Name: Show photo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1597385046657146
 GameObject:
   m_ObjectHideFlags: 1
@@ -693,6 +741,22 @@ GameObject:
   - component: {fileID: 4257308082700558}
   m_Layer: 0
   m_Name: Part I
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1694857410406066
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4077395867813124}
+  - component: {fileID: 114064553276033176}
+  m_Layer: 0
+  m_Name: Enable new photo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -916,7 +980,7 @@ GameObject:
   - component: {fileID: 4294433097461420}
   - component: {fileID: 114210719283480070}
   m_Layer: 0
-  m_Name: Hide Photo
+  m_Name: Hide new Photo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -943,7 +1007,6 @@ Transform:
   - {fileID: 4584284644582650}
   - {fileID: 4498072753354706}
   - {fileID: 4569135723129784}
-  - {fileID: 4900662814703376}
   - {fileID: 4615086937478794}
   - {fileID: 4678464200438108}
   - {fileID: 4758588184999206}
@@ -977,6 +1040,19 @@ Transform:
   m_Father: {fileID: 4257308082700558}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4077395867813124
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1694857410406066}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.773656, y: 0.6079422, z: 0.100914665}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4084863333241866
 Transform:
   m_ObjectHideFlags: 1
@@ -1002,6 +1078,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4257308082700558}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4092477289708228
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596636763785824}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4954130238419030}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4098893816495676
 Transform:
@@ -1161,6 +1250,11 @@ Transform:
   - {fileID: 4494756402402722}
   - {fileID: 4635067048482454}
   - {fileID: 4200408552217894}
+  - {fileID: 4077395867813124}
+  - {fileID: 4736069689176910}
+  - {fileID: 4545347878404296}
+  - {fileID: 4900662814703376}
+  - {fileID: 4294433097461420}
   m_Father: {fileID: 4043819636739278}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1187,8 +1281,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4954130238419030}
-  m_RootOrder: 8
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4341861329828878
 Transform:
@@ -1241,6 +1335,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4043819636739278}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4491822235314120
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1117292787892162}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4954130238419030}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4494756402402722
 Transform:
@@ -1304,8 +1411,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4954130238419030}
-  m_RootOrder: 5
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4558776955937574
 Transform:
@@ -1332,6 +1439,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4043819636739278}
   m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4577565019667082
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1492295865264936}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4954130238419030}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4584284644582650
 Transform:
@@ -1370,7 +1490,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4635067048482454
 Transform:
@@ -1435,7 +1555,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4714651738996908
 Transform:
@@ -1473,8 +1593,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4954130238419030}
-  m_RootOrder: 7
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4758588184999206
 Transform:
@@ -1487,7 +1607,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4790701309708420
 Transform:
@@ -1578,7 +1698,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4841828284617844
 Transform:
@@ -1629,8 +1749,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4043819636739278}
-  m_RootOrder: 11
+  m_Father: {fileID: 4257308082700558}
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4903608569198780
 Transform:
@@ -1699,10 +1819,10 @@ Transform:
   - {fileID: 4084863333241866}
   - {fileID: 4252570533089850}
   - {fileID: 4841828284617844}
-  - {fileID: 4545347878404296}
+  - {fileID: 4092477289708228}
   - {fileID: 4951856474983170}
-  - {fileID: 4736069689176910}
-  - {fileID: 4294433097461420}
+  - {fileID: 4577565019667082}
+  - {fileID: 4491822235314120}
   m_Father: {fileID: 4043819636739278}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1827,9 +1947,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 114067890194183268}
   SpritesToFade:
-  - {fileID: 212964385620763952}
+  - {fileID: 212328579651410682}
   FadeTo: 1
   FadeTime: 1
+--- !u!114 &114064553276033176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1694857410406066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3840802d79a86544db3ecf905cf29e18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 0}
+  ObjectsToEnable:
+  - {fileID: 0}
+  ObjectsToDisable:
+  - {fileID: 0}
 --- !u!114 &114067890194183268
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1848,10 +1984,10 @@ MonoBehaviour:
   - Matthew 7:7.
   - The bible!
   songs:
-  - {fileID: 8300000, guid: 5cba878ef79dca44c9a4f3df56df0543, type: 3}
-  - {fileID: 8300000, guid: bd268e581a6b99647b15775dde621592, type: 3}
-  - {fileID: 8300000, guid: 43c194662a2468344891b80c67802715, type: 3}
-  - {fileID: 8300000, guid: 5084c7cfab94aa045ba9ee6058bd55dc, type: 3}
+  - {fileID: 8300000, guid: a26e73562f87562438f18299749236f2, type: 3}
+  - {fileID: 8300000, guid: 2e54fe60dfa9eb64e848bd00f00f208a, type: 3}
+  - {fileID: 8300000, guid: 604a120578f71624092250030ba3dc16, type: 3}
+  - {fileID: 8300000, guid: d05203497cc0a4040a08e4e39d2b1981, type: 3}
 --- !u!114 &114105365615970142
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1883,7 +2019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 114117349910373780}
   Text:
-  - Makin' ma' coffee...
+  - That's one way to wake up...
   songs: []
 --- !u!114 &114117349910373780
 MonoBehaviour:
@@ -1914,7 +2050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 114159024858620666}
   Text:
-  - What the hell?
+  - '...'
   songs: []
 --- !u!114 &114143371924713322
 MonoBehaviour:
@@ -1927,11 +2063,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114257054478128788}
+  NextStep: {fileID: 0}
   Text:
-  - "You\u2019ve been listening to me. My message has reached you. "
-  - "You know there\u2019s only one thing I can ask. I will."
-  songs: []
+  - You know there's only one thing I can ask...
+  songs:
+  - {fileID: 8300000, guid: 5084c7cfab94aa045ba9ee6058bd55dc, type: 3}
 --- !u!114 &114148434794840270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1994,7 +2130,10 @@ MonoBehaviour:
   - What sets you free.
   - I understand, now, Anna.
   - There's only one way to be free.
-  songs: []
+  songs:
+  - {fileID: 8300000, guid: 60304dd1681df8644b30bc537a706b7c, type: 3}
+  - {fileID: 8300000, guid: c1339325e4a3dba4e9a51fce73b1613c, type: 3}
+  - {fileID: 8300000, guid: 21080e2f7c5f2ce47bd5f40022d99c86, type: 3}
 --- !u!114 &114193846224525724
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2061,7 +2200,13 @@ MonoBehaviour:
   - "Or is it just deep regret\u2026 and longing? "
   - "Anna\u2026 "
   - '...can you hear me?'
-  songs: []
+  songs:
+  - {fileID: 8300000, guid: a0a9a4d7aacfbb44fbe09d60d2284490, type: 3}
+  - {fileID: 8300000, guid: 6f4070efe1a1dc342990c491a4921146, type: 3}
+  - {fileID: 8300000, guid: 40d9eeeaee656534eabe61c3a1f08b13, type: 3}
+  - {fileID: 8300000, guid: 0e3c0cc1831283b41a83b4f7c5cfbfcf, type: 3}
+  - {fileID: 8300000, guid: eb9eed31a0ac26c4cb599a6a04fecc9b, type: 3}
+  - {fileID: 8300000, guid: fc303cefd259db64db3ab2d22a650923, type: 3}
 --- !u!114 &114244903628244138
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2077,22 +2222,6 @@ MonoBehaviour:
   ObjectsToEnable: []
   ObjectsToDisable:
   - {fileID: 0}
---- !u!114 &114257054478128788
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119656137747176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d01ff012ed8145d4683bc1874396249d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextStep: {fileID: 114502227345530058}
-  Question: "\"there\u2019s only one thing I can ask\""
-  Choices:
-  - Label: Broadcast message to Anna
-    Step: {fileID: 114502227345530058}
 --- !u!114 &114262669410965718
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2104,7 +2233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ebdb79e4a3cd784484d0dc7c487c4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114293644419183310}
+  NextStep: {fileID: 114384034962105612}
   SpritesToFade:
   - {fileID: 212964385620763952}
   FadeTo: 1
@@ -2124,6 +2253,22 @@ MonoBehaviour:
   Text:
   - Ask, and it shall be opened to you.
   songs: []
+--- !u!114 &114267628867813240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1117292787892162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ebdb79e4a3cd784484d0dc7c487c4d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 0}
+  SpritesToFade:
+  - {fileID: 212328579651410682}
+  FadeTo: 0
+  FadeTime: 1
 --- !u!114 &114293644419183310
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2135,9 +2280,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114210719283480070}
+  NextStep: {fileID: 114267628867813240}
   Text:
-  - You see the photo
+  - '...'
   songs: []
 --- !u!114 &114301956032762060
 MonoBehaviour:
@@ -2165,8 +2310,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 0}
   Text:
-  - "Ok. I\u2019ll look for it then."
-  songs: []
+  - 'Ok. '
+  - "I\u2019ll look for it then."
+  songs:
+  - {fileID: 8300000, guid: a9f86fdc8285c7e4e86ade7d7b9a87ac, type: 3}
+  - {fileID: 8300000, guid: c4296ffcd82f2d54e9d3eaf178ee5a38, type: 3}
 --- !u!114 &114368535017060066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2191,10 +2339,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 0}
+  NextStep: {fileID: 114210719283480070}
   Text:
-  - "I\u2019ve seen this before. You showed it to me once"
-  songs: []
+  - "I\u2019ve seen this before. "
+  - You showed it to me once.
+  songs:
+  - {fileID: 8300000, guid: 3f8a9e5950f97e745930d03037a146ab, type: 3}
+  - {fileID: 8300000, guid: 5e6147daa942ec6438f7ca778d530373, type: 3}
 --- !u!114 &114417672841911606
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2224,19 +2375,19 @@ MonoBehaviour:
   NextStep: {fileID: 114193846224525724}
   Text:
   - Good morning, my love.
-  - ' Today I want to talk about our wedding. The day we became Matthew and Anna Reed.'
+  - Today I want to talk about our wedding. The day we became Matthew and Anna Reed.
   - You wanted to get married in the church, of course, but I convinced you otherwise.
   - That was one of the few times I ever remember winning an argument with you.
   - "Remember how we went to\u2026"
-  - What the hell? ...
-  - Who's there?!
+  - '...'
+  - What the...
   songs:
   - {fileID: 8300000, guid: f22eb265aecfd8149b14af22af6a1dd7, type: 3}
   - {fileID: 8300000, guid: e1254c3206ac746478d5613adc884071, type: 3}
   - {fileID: 8300000, guid: 20855eda22bc0f54db97bb8a009a3b7e, type: 3}
   - {fileID: 8300000, guid: c98a416f6282c5a4e90b48fe95869860, type: 3}
   - {fileID: 8300000, guid: a2c2f38b8f2ce3a47b9d643d8c007f57, type: 3}
-  - {fileID: 8300000, guid: 4c8ae95a7fb1aec4cafe2d41afb94bd8, type: 3}
+  - {fileID: 0}
   - {fileID: 8300000, guid: ee5ce82e0196a984d8a152ee22c2327c, type: 3}
 --- !u!114 &114462775948392096
 MonoBehaviour:
@@ -2268,11 +2419,11 @@ MonoBehaviour:
   Text:
   - "Hey, Anna. I\u2019m sorry I\u2019m a little later than usual today."
   - "You know, getting things done has been\u2026 well, hard. "
-  - Anyway, today I was thinking about that trip we took to Vermont.
-  - You told me it was the most beautiful place you had ever seen.
+  - Anyway, today I was remembering that trip we took to Vermont.
+  - Remember how you told me it was the most beautiful place you had ever seen?
   - "I said we should move in, but you said you didn\u2019t want to live that far
     from your parents. "
-  - "But I know that it was just an excuse, you could never make that sort of decision\u2026
+  - "But I know that was just an excuse, you could never make that sort of decision\u2026
     the overnight sort. "
   - 'Sometimes I wonder how I ever got you to accept my proposal. '
   - "Anna, I\u2019m sorry. I have to go now."
@@ -2303,7 +2454,8 @@ MonoBehaviour:
   NextStep: {fileID: 0}
   Text:
   - We are one, when once we were two.
-  songs: []
+  songs:
+  - {fileID: 8300000, guid: 5918f4bad714e794ea74ca8088fa827b, type: 3}
 --- !u!114 &114493578004503782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2317,7 +2469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 114958341137708232}
   SpritesToFade:
-  - {fileID: 212964385620763952}
+  - {fileID: 212328579651410682}
   FadeTo: 0
   FadeTime: 1
 --- !u!114 &114496362814531162
@@ -2333,10 +2485,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 0}
   Text:
-  - Yes... I remember now. Tower.
+  - Tower...
   - 
   songs:
-  - {fileID: 8300000, guid: 54808cd9033ebeb4db364c0487306281, type: 3}
   - {fileID: 8300000, guid: 796fc8a845c7fc7428fed28be1e71a87, type: 3}
 --- !u!114 &114502227345530058
 MonoBehaviour:
@@ -2349,10 +2500,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 0}
+  NextStep: {fileID: 114064553276033176}
   Text:
-  - Anna... please come back.
-  songs: []
+  - Anna...
+  - '...please...'
+  - '...come back.'
+  - '!'
+  songs:
+  - {fileID: 8300000, guid: adb7d9c17df6fb64686485c605e3d266, type: 3}
+  - {fileID: 8300000, guid: 6fdd563885f580340a77e03d785e500b, type: 3}
+  - {fileID: 8300000, guid: c960a2e9f30929944871e3f262f5e897, type: 3}
+  - {fileID: 0}
 --- !u!114 &114514910339345084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2384,8 +2542,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 0}
   Text:
-  - 
-  - 
+  - It's not here...
+  - Why can't I remember?!
   - 
   - 
   - 
@@ -2408,11 +2566,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 0}
   Text:
-  - 
-  - 
+  - I am me... when once I was us.
   songs:
-  - {fileID: 8300000, guid: 4f3f974f3f7e18741af051b8481a2d8c, type: 3}
-  - {fileID: 8300000, guid: 3eabd115d1af4044d901fa1e9e6ab2e8, type: 3}
+  - {fileID: 8300000, guid: dfc50db39eb83d74bb9e051cc58243bc, type: 3}
+--- !u!114 &114540484233164834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1119656137747176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d505ed833fde311469f52d373620f1f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 114502227345530058}
+  Background: {fileID: 21300000, guid: 169c696118847c44cb8ffe4c1a050f88, type: 3}
 --- !u!114 &114550465050887400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2429,12 +2598,10 @@ MonoBehaviour:
   - Ask, and it shall be given to you.
   - Seek, and you shall find.
   - Knock, and it shall be opened to you.
-  - Anna...
   songs:
   - {fileID: 8300000, guid: 5cba878ef79dca44c9a4f3df56df0543, type: 3}
   - {fileID: 8300000, guid: bd268e581a6b99647b15775dde621592, type: 3}
   - {fileID: 8300000, guid: 43c194662a2468344891b80c67802715, type: 3}
-  - {fileID: 8300000, guid: 5084c7cfab94aa045ba9ee6058bd55dc, type: 3}
 --- !u!114 &114580393055905282
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2448,7 +2615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 114105365615970142}
   Text:
-  - The steam has revealed the symbol
+  - '...'
   songs: []
 --- !u!114 &114598312448326266
 MonoBehaviour:
@@ -2479,7 +2646,8 @@ MonoBehaviour:
   NextStep: {fileID: 0}
   Text:
   - "I am everywhere\u2026 when once I was just here."
-  songs: []
+  songs:
+  - {fileID: 8300000, guid: 704550bfdfb6d9f49b7fbf7d81c56933, type: 3}
 --- !u!114 &114653109870725606
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2584,6 +2752,22 @@ MonoBehaviour:
   ObjectsToEnable:
   - {fileID: 0}
   ObjectsToDisable: []
+--- !u!114 &114840379755535890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596636763785824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ebdb79e4a3cd784484d0dc7c487c4d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 114293644419183310}
+  SpritesToFade:
+  - {fileID: 212328579651410682}
+  FadeTo: 1
+  FadeTime: 1
 --- !u!114 &114845230545302676
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2597,7 +2781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 114514910339345084}
   Text:
-  - Journal found
+  - Here it is.
   songs: []
 --- !u!114 &114883175567801830
 MonoBehaviour:
@@ -2711,6 +2895,50 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 4.8, y: 4.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!212 &212328579651410682
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1492295865264936}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 7e9aa5b6e2f47d0499de08d26adb5fc3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 16.42, y: 12.54}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
