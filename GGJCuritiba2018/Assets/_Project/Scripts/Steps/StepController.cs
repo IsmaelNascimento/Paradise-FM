@@ -62,29 +62,6 @@ public class StepController : MonoBehaviour
         (CurrentStep as TextStep).Skip();
     }
 
-    //private IEnumerator TextCoroutine(string[] text)
-    //{
-    //    for (int textIndex = 0; textIndex < text.Length; textIndex++)
-    //    {
-    //        string sentence = text[textIndex];
-    //        int charIndex;
-    //        for (charIndex = 0; !isSentenceComplete && charIndex < sentence.Length; charIndex++)
-    //        {
-    //            yield return new WaitForSeconds(1f/TextSpeed);
-    //            DialogBox.SetTextDialogBox(sentence.Substring(0, charIndex));
-    //        }
-    //        charIndex = sentence.Length;
-    //        DialogBox.SetTextDialogBox(sentence.Substring(0, charIndex));
-    //        isSentenceComplete = true;
-    //        while (isSentenceComplete)
-    //        {
-    //            yield return null;
-    //        }
-    //    }
-
-    //    instance.DialogBox.AnimationOutput();
-    //}
-
     public void StartStep(BaseStep nextStep)
     {
         CurrentStep.gameObject.SetActive(false);

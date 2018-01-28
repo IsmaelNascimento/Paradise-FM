@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TextStep : BaseStep {
+[RequireComponent(typeof(AudioSource))]
+public class TextStep : BaseStep
+{
     public string[] Text;
+    public AudioClip[] songs;
     private int textIndex;
     private int charIndex;
     private bool isSentenceComplete = false;
@@ -17,29 +20,40 @@ public class TextStep : BaseStep {
     {
         for (textIndex = 0; textIndex < Text.Length; textIndex++)
         {
-            string sentence = Text[textIndex];
+            var sentence = Text[textIndex];
+            GetComponent<AudioSource>().clip = songs[textIndex];
+            GetComponent<AudioSource>().Play();
+
             for (charIndex = 0; !isSentenceComplete && charIndex < sentence.Length; charIndex++)
             {
                 yield return new WaitForSeconds(1f / StepController.Instance.TextSpeed);
+
                 if ('<' == sentence[charIndex])
                 {
                     charIndex = sentence.IndexOf('>', charIndex) + 1;
                 }
+
                 StepController.Instance.ShowText(sentence.Substring(0, charIndex));
             }
+
             charIndex = sentence.Length;
             StepController.Instance.ShowText(sentence.Substring(0, charIndex));
             isSentenceComplete = true;
+
             while (isSentenceComplete)
             {
                 yield return null;
             }
         }
+
         EndStep();
     }
 
     public void Skip()
     {
+        if(isSentenceComplete)
+            GetComponent<AudioSource>().Stop();
+
         isSentenceComplete = !isSentenceComplete;
     }
 }
