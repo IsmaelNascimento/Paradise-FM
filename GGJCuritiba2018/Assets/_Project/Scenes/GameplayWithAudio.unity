@@ -672,9 +672,34 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4698917918962264, guid: 01c2d6850ce7e474485d2229b94e5e23, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483618471882032, guid: 01c2d6850ce7e474485d2229b94e5e23, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4721727551585046, guid: 01c2d6850ce7e474485d2229b94e5e23, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983811365954812, guid: 01c2d6850ce7e474485d2229b94e5e23, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4353998964838524, guid: 01c2d6850ce7e474485d2229b94e5e23, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 01c2d6850ce7e474485d2229b94e5e23, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &289772022 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4996231690701146, guid: 01c2d6850ce7e474485d2229b94e5e23,
+    type: 2}
+  m_PrefabInternal: {fileID: 289772021}
 --- !u!1 &326552654
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,7 +842,6 @@ MonoBehaviour:
   Text:
   - Anna?! ...
   - The journal! It's in the closet somewhere.
-  - 
   songs:
   - {fileID: 8300000, guid: bd6526e08b092df44ba2762d24383697, type: 3}
   - {fileID: 8300000, guid: e11a41adc7f18b3469bacb03f07d1d12, type: 3}
@@ -1721,7 +1745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3840802d79a86544db3ecf905cf29e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 959460682}
+  NextStep: {fileID: 0}
   ObjectsToEnable: []
   ObjectsToDisable:
   - {fileID: 982261604}
@@ -1770,17 +1794,6 @@ Transform:
   m_Father: {fileID: 2115913499}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &959460682 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114150424777528088, guid: 01c2d6850ce7e474485d2229b94e5e23,
-    type: 2}
-  m_PrefabInternal: {fileID: 289772021}
-  m_Script: {fileID: 11500000, guid: cfd29871a18683b4d9a271705059baec, type: 3}
---- !u!4 &959460683 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4064316296920496, guid: 01c2d6850ce7e474485d2229b94e5e23,
-    type: 2}
-  m_PrefabInternal: {fileID: 289772021}
 --- !u!1 &982261604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1845,8 +1858,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 959460683}
-  m_RootOrder: 1
+  m_Father: {fileID: 289772022}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1002782023
 GameObject:
@@ -4682,15 +4695,20 @@ MonoBehaviour:
   NextStep: {fileID: 1454272212}
   Text:
   - Good morning, my love.
-  - ' Today I want to talk about our wedding. '
-  - The day we became Matthew and Anna Reed.
+  - ' Today I want to talk about our wedding. The day we became Matthew and Anna Reed.'
   - You wanted to get married in the church, of course, but I convinced you otherwise.
   - That was one of the few times I ever remember winning an argument with you.
   - "Remember how we went to\u2026"
-  - What the hell?
-  - '...'
+  - What the hell? ...
   - Who's there?!
-  songs: []
+  songs:
+  - {fileID: 8300000, guid: f22eb265aecfd8149b14af22af6a1dd7, type: 3}
+  - {fileID: 8300000, guid: e1254c3206ac746478d5613adc884071, type: 3}
+  - {fileID: 8300000, guid: 20855eda22bc0f54db97bb8a009a3b7e, type: 3}
+  - {fileID: 8300000, guid: c98a416f6282c5a4e90b48fe95869860, type: 3}
+  - {fileID: 8300000, guid: a2c2f38b8f2ce3a47b9d643d8c007f57, type: 3}
+  - {fileID: 8300000, guid: 4c8ae95a7fb1aec4cafe2d41afb94bd8, type: 3}
+  - {fileID: 8300000, guid: ee5ce82e0196a984d8a152ee22c2327c, type: 3}
 --- !u!1 &2067046957
 GameObject:
   m_ObjectHideFlags: 0
