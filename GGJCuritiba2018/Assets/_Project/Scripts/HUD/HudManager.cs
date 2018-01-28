@@ -17,8 +17,18 @@ public class HudManager : MonoBehaviour
         }
     }
 
+    [Header("Setup HUD")]
     [SerializeField] private Text m_TextClock;
+    [Space(15)]
+    [Header("Setup Book")]
+    [SerializeField] private GameObject m_Book;
+    [SerializeField] private Image m_ImageBook;
+    [SerializeField] private Sprite[] m_PagesBook;
+    [Space(15)]
+    [SerializeField] private GameObject m_SymbolFind;
+
     private bool m_IsOpenBook = false;
+    private int m_PageCurrent = 0;
 
     public void SetNewHourInClock(string hour)
     {
@@ -27,9 +37,14 @@ public class HudManager : MonoBehaviour
 
     #region Buttons
 
-    public void OpenBook()
+    public void OpenOrCloseBook()
     {
-        print("Book open");
+        if (m_IsOpenBook)
+            m_Book.SetActive(false);
+        else
+            m_Book.SetActive(true);
+
+        m_IsOpenBook = !m_IsOpenBook;
     }
 
     public void ChangeVolumeMusic(Slider slider)
@@ -40,6 +55,33 @@ public class HudManager : MonoBehaviour
     public void ChangeVolumeFx(Slider slider)
     {
         print("slider fx value:: " + slider.value);
+    }
+
+    public void NextPage()
+    {
+        if (m_SymbolFind.activeInHierarchy)
+        {
+            m_SymbolFind.SetActive(false);
+            print("Call any action");
+            // Chama alguma ação aqui
+        }
+
+        m_PageCurrent++;
+
+        if (m_PageCurrent < m_PagesBook.Length)
+        {
+            m_ImageBook.sprite = m_PagesBook[m_PageCurrent];
+
+            if (m_PageCurrent == 3)
+                m_SymbolFind.SetActive(true);
+        }
+        else
+        {
+            m_Book.SetActive(false);
+            m_ImageBook.sprite = m_PagesBook[0];
+            m_PageCurrent = 0;
+            m_IsOpenBook = false;
+        }
     }
 
     #endregion
