@@ -24,10 +24,12 @@ public class AnswersManager : MonoBehaviour
         id = -1;
         for (int i = 0; i < m_Buttons.Length; i++)
             m_Buttons[i].SetActive(false);
+        gameObject.SetActive(false);
     }
 
     public void ActivePanelAnswers(int countAnswers)
     {
+        gameObject.SetActive(true);
         for (int i = 0; i < countAnswers; i++)
             m_Buttons[i].SetActive(true);
     }
