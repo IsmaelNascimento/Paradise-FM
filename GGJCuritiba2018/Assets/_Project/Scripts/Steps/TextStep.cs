@@ -6,6 +6,7 @@ using UnityEngine;
 public class TextStep : BaseStep
 {
     public string[] Text;
+    [Space(15)]
     public AudioClip[] songs;
     private int textIndex;
     private int charIndex;
