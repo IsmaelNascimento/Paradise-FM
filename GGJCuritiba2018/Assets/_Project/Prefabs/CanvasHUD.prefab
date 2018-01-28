@@ -596,7 +596,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4539413666104032
 Transform:
   m_ObjectHideFlags: 1
@@ -1037,12 +1037,11 @@ MonoBehaviour:
   m_Book: {fileID: 1276521575797322}
   m_ImageBook: {fileID: 114958119689055598}
   m_PagesBook:
-  - {fileID: 21300000, guid: 1e5cd06ef9df58845a531f180618fee9, type: 3}
-  - {fileID: 21300000, guid: 154304a932a878c44bd4329a0c22cae0, type: 3}
-  - {fileID: 21300000, guid: 5e04258fa64b2144891fd97cfb72802c, type: 3}
-  - {fileID: 21300000, guid: 5e04258fa64b2144891fd97cfb72802c, type: 3}
-  - {fileID: 21300000, guid: 5e04258fa64b2144891fd97cfb72802c, type: 3}
-  - {fileID: 21300000, guid: 5e04258fa64b2144891fd97cfb72802c, type: 3}
+  - {fileID: 21300000, guid: 163b818ce34ae084babce65648f18c98, type: 3}
+  - {fileID: 21300000, guid: bdd17fdeb17da2f48b06f5f96d93e4dd, type: 3}
+  - {fileID: 21300000, guid: 2ba96d34a62a6654f9e38b7715ad3be5, type: 3}
+  - {fileID: 21300000, guid: 8d4db8bd0777bce408f5273af86b8264, type: 3}
+  - {fileID: 21300000, guid: 3de04d151fd7a72498e5c4dea947bd56, type: 3}
   m_SymbolFind: {fileID: 1978346351822792}
 --- !u!114 &114428651710698696
 MonoBehaviour:
@@ -1738,6 +1737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7a9e9f51ed5787498378dc7e6cc8296, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_TextQuestion: {fileID: 0}
   m_Buttons:
   - {fileID: 1831662160458412}
   - {fileID: 1151163668297798}
@@ -1881,7 +1881,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 1e5cd06ef9df58845a531f180618fee9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 163b818ce34ae084babce65648f18c98, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -29,6 +29,7 @@ public class HudManager : MonoBehaviour
 
     private bool m_IsOpenBook = false;
     private int m_PageCurrent = 0;
+    private bool m_CallSymbolFirst = true;
 
     public void SetNewHourInClock(string hour)
     {
@@ -39,6 +40,11 @@ public class HudManager : MonoBehaviour
 
     public void OpenOrCloseBook()
     {
+        if (!m_CallSymbolFirst)
+        {
+            m_SymbolFind.SetActive(false);
+        }
+
         if (m_IsOpenBook)
             m_Book.SetActive(false);
         else
@@ -62,6 +68,7 @@ public class HudManager : MonoBehaviour
         if (m_SymbolFind.activeInHierarchy)
         {
             m_SymbolFind.SetActive(false);
+            m_CallSymbolFirst = false;
             print("Call any action");
             // Chama alguma ação aqui
         }
@@ -72,8 +79,8 @@ public class HudManager : MonoBehaviour
         {
             m_ImageBook.sprite = m_PagesBook[m_PageCurrent];
 
-            if (m_PageCurrent == 3)
-                m_SymbolFind.SetActive(true);
+            //if (m_PageCurrent == 3)
+            //    m_SymbolFind.SetActive(true);
         }
         else
         {
