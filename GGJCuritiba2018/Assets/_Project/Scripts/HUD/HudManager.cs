@@ -25,6 +25,7 @@ public class HudManager : MonoBehaviour
     [SerializeField] private Image m_ImageBook;
     [SerializeField] private Sprite[] m_PagesBook;
     [Space(15)]
+    [SerializeField] private Slider m_SliderVolumeMusic;
     //[SerializeField] private GameObject m_SymbolFind;
 
     private bool m_IsOpenBook = false;
@@ -53,9 +54,9 @@ public class HudManager : MonoBehaviour
         m_IsOpenBook = !m_IsOpenBook;
     }
 
-    public void ChangeVolumeMusic(Slider slider)
+    public void ChangeVolumeMusic(AudioSource music)
     {
-        print("slider volume value:: " + slider.value);
+        music.volume = m_SliderVolumeMusic.value;
     }
 
     public void ChangeVolumeFx(Slider slider)
