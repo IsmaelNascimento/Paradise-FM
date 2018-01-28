@@ -442,6 +442,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &1307574469676200
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4310960328170574}
+  - component: {fileID: 114650661509738908}
+  m_Layer: 0
+  m_Name: Climb tower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1314452708587824
 GameObject:
   m_ObjectHideFlags: 1
@@ -618,6 +634,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &1439735996942600
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4620810909297150}
+  - component: {fileID: 114632978047285180}
+  m_Layer: 0
+  m_Name: Wait
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1453578809475968
 GameObject:
   m_ObjectHideFlags: 1
@@ -629,6 +661,22 @@ GameObject:
   - component: {fileID: 114143371924713322}
   m_Layer: 0
   m_Name: Part I Bedroom Monologue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1467992555949756
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4017335135128624}
+  - component: {fileID: 114499289441776876}
+  m_Layer: 0
+  m_Name: Fade to Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -884,7 +932,7 @@ GameObject:
   - component: {fileID: 4548847365603214}
   - component: {fileID: 114644807654969694}
   m_Layer: 0
-  m_Name: Climb tower
+  m_Name: Fade to black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1304,6 +1352,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!4 &4017335135128624
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1467992555949756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4460916497620536}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4041497378272816
 Transform:
   m_ObjectHideFlags: 1
@@ -1489,7 +1550,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4460916497620536}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4185523673007656
 Transform:
@@ -1541,7 +1602,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4460916497620536}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4252570533089850
 Transform:
@@ -1633,6 +1694,19 @@ Transform:
   m_Father: {fileID: 4257308082700558}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4310960328170574
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1307574469676200}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4645261069721490}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4334282786599174
 Transform:
   m_ObjectHideFlags: 1
@@ -1709,7 +1783,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4460916497620536}
-  m_RootOrder: 13
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4460916497620536
 Transform:
@@ -1727,16 +1801,17 @@ Transform:
   - {fileID: 4697406775304530}
   - {fileID: 4041497378272816}
   - {fileID: 4185523673007656}
+  - {fileID: 4454693588342356}
   - {fileID: 4895378499390220}
   - {fileID: 4742816006961038}
   - {fileID: 4910614667190138}
   - {fileID: 4180544353451594}
   - {fileID: 4950847347100838}
-  - {fileID: 4220103141078298}
   - {fileID: 4491971950157432}
-  - {fileID: 4454693588342356}
+  - {fileID: 4220103141078298}
   - {fileID: 4334282786599174}
-  - {fileID: 4893521860315150}
+  - {fileID: 4620810909297150}
+  - {fileID: 4017335135128624}
   m_Father: {fileID: 4043819636739278}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1842,7 +1917,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4645261069721490}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4548847365603214
 Transform:
@@ -1881,7 +1956,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4645261069721490}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4577565019667082
 Transform:
@@ -1933,7 +2008,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4645261069721490}
-  m_RootOrder: 10
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4620810909297150
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439735996942600}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4460916497620536}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4635067048482454
 Transform:
@@ -1975,14 +2063,16 @@ Transform:
   - {fileID: 4993912321695618}
   - {fileID: 4498072753354706}
   - {fileID: 4548847365603214}
+  - {fileID: 4310960328170574}
   - {fileID: 4758588184999206}
   - {fileID: 4984035797799548}
-  - {fileID: 4826247132301836}
   - {fileID: 4433180797158996}
+  - {fileID: 4826247132301836}
   - {fileID: 4547856040568030}
   - {fileID: 4569135723129784}
-  - {fileID: 4615086937478794}
   - {fileID: 4714651738996908}
+  - {fileID: 4615086937478794}
+  - {fileID: 4893521860315150}
   m_Father: {fileID: 4043819636739278}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2088,7 +2178,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4460916497620536}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4758588184999206
 Transform:
@@ -2101,7 +2191,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4645261069721490}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4790701309708420
 Transform:
@@ -2192,7 +2282,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4645261069721490}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4840632038557836
 Transform:
@@ -2269,8 +2359,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4460916497620536}
-  m_RootOrder: 15
+  m_Father: {fileID: 4645261069721490}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4895378499390220
 Transform:
@@ -2283,7 +2373,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4460916497620536}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4900662814703376
 Transform:
@@ -2322,7 +2412,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4460916497620536}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4915580736428058
 Transform:
@@ -2348,7 +2438,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4460916497620536}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4951856474983170
 Transform:
@@ -2422,7 +2512,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4645261069721490}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4993912321695618
 Transform:
@@ -2928,7 +3018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 529cb76a47f86c544855a29ba8767761, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114719603732361280}
+  NextStep: {fileID: 114398720441905180}
   Sound: {fileID: 8300000, guid: 8ca81c95d4569c7409e4a4957c8253a1, type: 3}
 --- !u!114 &114292601823151086
 MonoBehaviour:
@@ -2998,7 +3088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 529cb76a47f86c544855a29ba8767761, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114460211763313508}
+  NextStep: {fileID: 114499289441776876}
   Sound: {fileID: 8300000, guid: db1acac0cf00c6548b80560aca7b80b9, type: 3}
 --- !u!114 &114356501275272824
 MonoBehaviour:
@@ -3076,8 +3166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d34743d153d65d2458cca247008032da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114307522764484906}
-  SecondsToWait: 1
+  NextStep: {fileID: 114719603732361280}
+  SecondsToWait: 1.5
 --- !u!114 &114417672841911606
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3132,7 +3222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d505ed833fde311469f52d373620f1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114265891249391798}
+  NextStep: {fileID: 0}
   Background: {fileID: 21300000, guid: 9a04834f77255c945bf973028a480962, type: 3}
 --- !u!114 &114462775948392096
 MonoBehaviour:
@@ -3196,7 +3286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 0}
+  NextStep: {fileID: 114460211763313508}
   Text:
   - We are one, when once we were two.
   songs:
@@ -3233,6 +3323,19 @@ MonoBehaviour:
   - Tower...
   songs:
   - {fileID: 8300000, guid: 796fc8a845c7fc7428fed28be1e71a87, type: 3}
+--- !u!114 &114499289441776876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1467992555949756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d505ed833fde311469f52d373620f1f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 114265891249391798}
+  Background: {fileID: 21300000, guid: 9a04834f77255c945bf973028a480962, type: 3}
 --- !u!114 &114502227345530058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3308,7 +3411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 0}
+  NextStep: {fileID: 114460211763313508}
   Text:
   - I am me... when once I was us.
   songs:
@@ -3324,7 +3427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 529cb76a47f86c544855a29ba8767761, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 114398720441905180}
+  NextStep: {fileID: 114632978047285180}
   Sound: {fileID: 8300000, guid: e6680cf744500af4ab93d10ca287d034, type: 3}
 --- !u!114 &114540484233164834
 MonoBehaviour:
@@ -3390,6 +3493,19 @@ MonoBehaviour:
   ObjectsToEnable:
   - {fileID: 0}
   ObjectsToDisable: []
+--- !u!114 &114632978047285180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439735996942600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34743d153d65d2458cca247008032da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 114307522764484906}
+  SecondsToWait: 1
 --- !u!114 &114640161922542414
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3416,7 +3532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e64a802c71fd4d99ee98798466ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextStep: {fileID: 0}
+  NextStep: {fileID: 114460211763313508}
   Text:
   - "I am everywhere\u2026 when once I was just here."
   songs:
@@ -3427,6 +3543,19 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1624716829277618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d505ed833fde311469f52d373620f1f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextStep: {fileID: 114650661509738908}
+  Background: {fileID: 21300000, guid: 9a04834f77255c945bf973028a480962, type: 3}
+--- !u!114 &114650661509738908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1307574469676200}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d505ed833fde311469f52d373620f1f6, type: 3}
@@ -3507,7 +3636,9 @@ MonoBehaviour:
   Text:
   - I am whole, where once I was torn.
   - I am free, where once I was bound.
-  songs: []
+  songs:
+  - {fileID: 8300000, guid: 4f3f974f3f7e18741af051b8481a2d8c, type: 3}
+  - {fileID: 8300000, guid: 3eabd115d1af4044d901fa1e9e6ab2e8, type: 3}
 --- !u!114 &114782667720095954
 MonoBehaviour:
   m_ObjectHideFlags: 1
