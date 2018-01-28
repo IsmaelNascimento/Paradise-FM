@@ -25,7 +25,7 @@ public class HudManager : MonoBehaviour
     [SerializeField] private Image m_ImageBook;
     [SerializeField] private Sprite[] m_PagesBook;
     [Space(15)]
-    [SerializeField] private GameObject m_SymbolFind;
+    //[SerializeField] private GameObject m_SymbolFind;
 
     private bool m_IsOpenBook = false;
     private int m_PageCurrent = 0;
@@ -40,10 +40,10 @@ public class HudManager : MonoBehaviour
 
     public void OpenOrCloseBook()
     {
-        if (!m_CallSymbolFirst)
-        {
-            m_SymbolFind.SetActive(false);
-        }
+        //if (!m_CallSymbolFirst)
+        //{
+        //    m_SymbolFind.SetActive(false);
+        //}
 
         if (m_IsOpenBook)
             m_Book.SetActive(false);
@@ -65,13 +65,13 @@ public class HudManager : MonoBehaviour
 
     public void NextPage()
     {
-        if (m_SymbolFind.activeInHierarchy)
-        {
-            m_SymbolFind.SetActive(false);
-            m_CallSymbolFirst = false;
-            print("Call any action");
-            // Chama alguma ação aqui
-        }
+        //if (m_SymbolFind.activeInHierarchy)
+        //{
+        //    m_SymbolFind.SetActive(false);
+        //    m_CallSymbolFirst = false;
+        //    print("Call any action");
+        //    // Chama alguma ação aqui
+        //}
 
         m_PageCurrent++;
 
