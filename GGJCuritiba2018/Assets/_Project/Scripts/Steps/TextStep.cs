@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
 public class TextStep : BaseStep
 {
     public string[] Text;
@@ -11,16 +10,7 @@ public class TextStep : BaseStep
     private int textIndex;
     private int charIndex;
     private bool isSentenceComplete = false;
-
-    private void Start()
-    {
-        if (!GetComponent<AudioSource>())
-        {
-            gameObject.AddComponent<AudioSource>();
-            GetComponent<AudioSource>().playOnAwake = false;
-        }
-    }
-
+    
     private void OnEnable()
     {
         StartCoroutine(ShowText());
@@ -34,8 +24,9 @@ public class TextStep : BaseStep
 
             if(textIndex < songs.Length)
             {
-                GetComponent<AudioSource>().clip = songs[textIndex];
-                GetComponent<AudioSource>().Play();
+                AudioSource source = StepController.Instance.StepAudioSource;
+                source.clip = songs[textIndex];
+                source.Play();
             }
 
             for (charIndex = 0; !isSentenceComplete && charIndex < sentence.Length; charIndex++)
@@ -65,8 +56,10 @@ public class TextStep : BaseStep
 
     public void Skip()
     {
-        if(isSentenceComplete)
-            GetComponent<AudioSource>().Stop();
+        if (isSentenceComplete)
+        {
+            StepController.Instance.StepAudioSource.Stop();
+        }
 
         isSentenceComplete = !isSentenceComplete;
     }

@@ -372,6 +372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4043819636739278}
   - component: {fileID: 114148434794840270}
+  - component: {fileID: 82942706771933828}
   m_Layer: 0
   m_Name: Roteiro Prefab
   m_TagString: Untagged
@@ -1568,6 +1569,86 @@ Transform:
   m_Father: {fileID: 4257308082700558}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82942706771933828
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1421955170176878}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!114 &114011421236963808
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1616,7 +1697,11 @@ MonoBehaviour:
   - "Anna, July 7. The seventh, the... Matthew, 7\u2026 "
   - Matthew 7:7.
   - The bible!
-  songs: []
+  songs:
+  - {fileID: 8300000, guid: 5cba878ef79dca44c9a4f3df56df0543, type: 3}
+  - {fileID: 8300000, guid: bd268e581a6b99647b15775dde621592, type: 3}
+  - {fileID: 8300000, guid: 43c194662a2468344891b80c67802715, type: 3}
+  - {fileID: 8300000, guid: 5084c7cfab94aa045ba9ee6058bd55dc, type: 3}
 --- !u!114 &114105365615970142
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1630,10 +1715,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 114958341137708232}
   Text:
-  - Anna?!
-  - '...'
+  - Anna?! ...
   - The journal! It's in the closet somewhere.
-  songs: []
+  songs:
+  - {fileID: 8300000, guid: bd6526e08b092df44ba2762d24383697, type: 3}
+  - {fileID: 8300000, guid: e11a41adc7f18b3469bacb03f07d1d12, type: 3}
 --- !u!114 &114107884788105218
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1957,12 +2043,20 @@ MonoBehaviour:
   NextStep: {fileID: 114193846224525724}
   Text:
   - Good morning, my love.
-  - ' Today I want to talk about our wedding. '
-  - The day we became Matthew and Anna Reed.
+  - ' Today I want to talk about our wedding. The day we became Matthew and Anna Reed.'
   - You wanted to get married in the church, of course, but I convinced you otherwise.
   - That was one of the few times I ever remember winning an argument with you.
   - "Remember how we went to\u2026"
-  songs: []
+  - What the hell? ...
+  - Who's there?!
+  songs:
+  - {fileID: 8300000, guid: f22eb265aecfd8149b14af22af6a1dd7, type: 3}
+  - {fileID: 8300000, guid: e1254c3206ac746478d5613adc884071, type: 3}
+  - {fileID: 8300000, guid: 20855eda22bc0f54db97bb8a009a3b7e, type: 3}
+  - {fileID: 8300000, guid: c98a416f6282c5a4e90b48fe95869860, type: 3}
+  - {fileID: 8300000, guid: a2c2f38b8f2ce3a47b9d643d8c007f57, type: 3}
+  - {fileID: 8300000, guid: 4c8ae95a7fb1aec4cafe2d41afb94bd8, type: 3}
+  - {fileID: 8300000, guid: ee5ce82e0196a984d8a152ee22c2327c, type: 3}
 --- !u!114 &114462775948392096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1991,8 +2085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 114417672841911606}
   Text:
-  - 'Hey, Anna. '
-  - "I\u2019m sorry I\u2019m a little later than usual today."
+  - "Hey, Anna. I\u2019m sorry I\u2019m a little later than usual today."
   - "You know, getting things done has been\u2026 well, hard. "
   - Anyway, today I was thinking about that trip we took to Vermont.
   - You told me it was the most beautiful place you had ever seen.
@@ -2004,7 +2097,17 @@ MonoBehaviour:
   - "Anna, I\u2019m sorry. I have to go now."
   - " I\u2019ll talk to you again tomorrow, early morning, ok?"
   - I'm sorry.
-  songs: []
+  songs:
+  - {fileID: 8300000, guid: 4b02fc8d1a4036a4c955c3a5b51eb604, type: 3}
+  - {fileID: 8300000, guid: c214b41241bb43f41ad6195143eebe1b, type: 3}
+  - {fileID: 8300000, guid: 8dfb49d2d1aea8b458ac9e51de2aec4a, type: 3}
+  - {fileID: 8300000, guid: 8817ec841ed7d89429022f221e752953, type: 3}
+  - {fileID: 8300000, guid: 7cbb5095efbacae4f942f3be987dbe52, type: 3}
+  - {fileID: 8300000, guid: dd3fe990c231c2144951f7dde5a4ec69, type: 3}
+  - {fileID: 8300000, guid: 550b591d44a1e37439ee4538469c7372, type: 3}
+  - {fileID: 8300000, guid: 480fae81f5a1dc147875906c8885957c, type: 3}
+  - {fileID: 8300000, guid: 397e3905d5bc607448914f7f7a63593d, type: 3}
+  - {fileID: 8300000, guid: 3b196be1d6c86584bbe7d6223f45b919, type: 3}
 --- !u!114 &114472193274106324
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2050,7 +2153,10 @@ MonoBehaviour:
   NextStep: {fileID: 0}
   Text:
   - Yes... I remember now. Tower.
-  songs: []
+  - 
+  songs:
+  - {fileID: 8300000, guid: 54808cd9033ebeb4db364c0487306281, type: 3}
+  - {fileID: 8300000, guid: 796fc8a845c7fc7428fed28be1e71a87, type: 3}
 --- !u!114 &114502227345530058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2079,10 +2185,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 114041922185549554}
   Text:
-  - 'Name? Anna? Matthew?  '
-  - "What day is today\u2026 ?"
+  - "Name? Anna? Matthew? What day is today\u2026 ?"
   - The picture. The date in the picture.
-  songs: []
+  songs:
+  - {fileID: 8300000, guid: 4f3dc97c931727442a2a388bcefd615e, type: 3}
+  - {fileID: 8300000, guid: ebfb01531f224ac4a8deadf4afaa7089, type: 3}
 --- !u!114 &114536472021002454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2096,8 +2203,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 0}
   Text:
-  - "It\u2019s not here\u2026 why can\u2019t I remember?!"
-  songs: []
+  - 
+  - 
+  - 
+  - 
+  - 
+  songs:
+  - {fileID: 8300000, guid: a7ea7904172de344cac4b34ddd2164f0, type: 3}
+  - {fileID: 8300000, guid: 7aeda285c21394f4cbc6311871429cc4, type: 3}
+  - {fileID: 8300000, guid: e15b81e316248ca4495198222ded2e42, type: 3}
+  - {fileID: 8300000, guid: a9f86fdc8285c7e4e86ade7d7b9a87ac, type: 3}
+  - {fileID: 8300000, guid: c4296ffcd82f2d54e9d3eaf178ee5a38, type: 3}
 --- !u!114 &114537195687191350
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2111,8 +2227,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 0}
   Text:
-  - "I am me\u2026 when once, I was us."
-  songs: []
+  - 
+  - 
+  songs:
+  - {fileID: 8300000, guid: 4f3f974f3f7e18741af051b8481a2d8c, type: 3}
+  - {fileID: 8300000, guid: 3eabd115d1af4044d901fa1e9e6ab2e8, type: 3}
 --- !u!114 &114550465050887400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2130,7 +2249,11 @@ MonoBehaviour:
   - Seek, and you shall find.
   - Knock, and it shall be opened to you.
   - Anna...
-  songs: []
+  songs:
+  - {fileID: 8300000, guid: 5cba878ef79dca44c9a4f3df56df0543, type: 3}
+  - {fileID: 8300000, guid: bd268e581a6b99647b15775dde621592, type: 3}
+  - {fileID: 8300000, guid: 43c194662a2468344891b80c67802715, type: 3}
+  - {fileID: 8300000, guid: 5084c7cfab94aa045ba9ee6058bd55dc, type: 3}
 --- !u!114 &114580393055905282
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2190,7 +2313,8 @@ MonoBehaviour:
   NextStep: {fileID: 0}
   Text:
   - "Ok, Anna. I\u2019m coming for you."
-  songs: []
+  songs:
+  - {fileID: 8300000, guid: badecd1ed9c2d0c4a9eb6247efb68665, type: 3}
 --- !u!114 &114690283685367544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2217,9 +2341,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextStep: {fileID: 0}
   Text:
-  - '...'
-  - I've never locked this door.
-  songs: []
+  - I've never locked this door...
+  songs:
+  - {fileID: 8300000, guid: e0652a119c6b2804ca85994300d130a0, type: 3}
 --- !u!114 &114779139928198762
 MonoBehaviour:
   m_ObjectHideFlags: 1

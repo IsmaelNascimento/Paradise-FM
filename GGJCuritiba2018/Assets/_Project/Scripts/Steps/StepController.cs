@@ -17,6 +17,10 @@ public class StepController : MonoBehaviour
             return instance;
         }
     }
+    public AudioSource StepAudioSource
+    {
+        get; private set;
+    }
 
     private void Awake()
     {
@@ -25,6 +29,7 @@ public class StepController : MonoBehaviour
             Debug.LogError("Multiple StepControllers");
         }
         instance = this;
+        StepAudioSource = GetComponent<AudioSource>();
     }
 
     private void Start()

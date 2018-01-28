@@ -157,21 +157,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114493578004503782, guid: 2abcf68edb9ba604fad321e6ad62659b,
-        type: 2}
-      propertyPath: NextStep
-      value: 
-      objectReference: {fileID: 1929658016}
-    - target: {fileID: 114417672841911606, guid: 2abcf68edb9ba604fad321e6ad62659b,
-        type: 2}
-      propertyPath: NextStep
-      value: 
-      objectReference: {fileID: 2138691302}
-    - target: {fileID: 114417672841911606, guid: 2abcf68edb9ba604fad321e6ad62659b,
-        type: 2}
-      propertyPath: ObjectsToEnable.Array.data[0]
-      value: 
-      objectReference: {fileID: 2140693674}
     - target: {fileID: 114598312448326266, guid: 2abcf68edb9ba604fad321e6ad62659b,
         type: 2}
       propertyPath: NextStep
@@ -197,16 +182,6 @@ Prefab:
       propertyPath: ObjectsToDisable.Array.data[0]
       value: 
       objectReference: {fileID: 982261604}
-    - target: {fileID: 114193846224525724, guid: 2abcf68edb9ba604fad321e6ad62659b,
-        type: 2}
-      propertyPath: ObjectsToDisable.Array.data[0]
-      value: 
-      objectReference: {fileID: 146468691}
-    - target: {fileID: 114958341137708232, guid: 2abcf68edb9ba604fad321e6ad62659b,
-        type: 2}
-      propertyPath: ObjectsToEnable.Array.data[0]
-      value: 
-      objectReference: {fileID: 2112718978}
     - target: {fileID: 114996193305739918, guid: 2abcf68edb9ba604fad321e6ad62659b,
         type: 2}
       propertyPath: NextStep
@@ -226,6 +201,31 @@ Prefab:
       propertyPath: NextStep
       value: 
       objectReference: {fileID: 1929658016}
+    - target: {fileID: 114493578004503782, guid: 2abcf68edb9ba604fad321e6ad62659b,
+        type: 2}
+      propertyPath: NextStep
+      value: 
+      objectReference: {fileID: 1929658016}
+    - target: {fileID: 114958341137708232, guid: 2abcf68edb9ba604fad321e6ad62659b,
+        type: 2}
+      propertyPath: ObjectsToEnable.Array.data[0]
+      value: 
+      objectReference: {fileID: 2112718978}
+    - target: {fileID: 114193846224525724, guid: 2abcf68edb9ba604fad321e6ad62659b,
+        type: 2}
+      propertyPath: ObjectsToDisable.Array.data[0]
+      value: 
+      objectReference: {fileID: 146468691}
+    - target: {fileID: 114417672841911606, guid: 2abcf68edb9ba604fad321e6ad62659b,
+        type: 2}
+      propertyPath: NextStep
+      value: 
+      objectReference: {fileID: 2138691302}
+    - target: {fileID: 114417672841911606, guid: 2abcf68edb9ba604fad321e6ad62659b,
+        type: 2}
+      propertyPath: ObjectsToEnable.Array.data[0]
+      value: 
+      objectReference: {fileID: 2140693674}
     - target: {fileID: 114011421236963808, guid: 2abcf68edb9ba604fad321e6ad62659b,
         type: 2}
       propertyPath: ObjectsToDisable.Array.data[0]
