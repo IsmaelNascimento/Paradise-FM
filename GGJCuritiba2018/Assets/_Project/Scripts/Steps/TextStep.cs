@@ -11,6 +11,12 @@ public class TextStep : BaseStep
     private int charIndex;
     private bool isSentenceComplete = false;
 
+    private void Start()
+    {
+        if (!GetComponent<AudioSource>())
+            gameObject.AddComponent<AudioSource>();
+    }
+
     private void OnEnable()
     {
         StartCoroutine(ShowText());
