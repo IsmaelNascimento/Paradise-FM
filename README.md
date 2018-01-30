@@ -1,4 +1,4 @@
-# ggjcuritiba2018
+# GGJ_Curitiba_2018
 
 Credits: 
 
