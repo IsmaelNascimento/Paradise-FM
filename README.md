@@ -14,6 +14,8 @@ Ian Quint Leisner - Roteiro e Dublagem / Script and Voice Acting
 
 Elie Abraham - Trilha sonora / Soundtrack
 
-Link: https://globalgamejam.org/2018/games/paradise-fm
+Link site Global Game Jam: https://globalgamejam.org/2018/games/paradise-fm
+Link download: https://goo.gl/TDWorx
+
 
 # MadeWithUnity
